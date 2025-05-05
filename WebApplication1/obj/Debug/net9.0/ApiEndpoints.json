@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "WebApplication1.Controllers.SignUpController",
+    "Method": "Register",
+    "RelativePath": "api/SignUp/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "formData",
+        "Type": "WebApplication1.Models.SignUpFormData",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
