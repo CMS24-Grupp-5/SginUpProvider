@@ -40,3 +40,4 @@ C:\Users\yaaru\Documents\Asp.net2\Backend\SignUpProvider\SignUpProvider\WebAppli
 C:\Users\yaaru\Documents\Asp.net2\Backend\SignUpProvider\SignUpProvider\WebApplication1\obj\Debug\net9.0\WebApplication1.pdb
 C:\Users\yaaru\Documents\Asp.net2\Backend\SignUpProvider\SignUpProvider\WebApplication1\obj\Debug\net9.0\WebApplication1.genruntimeconfig.cache
 C:\Users\yaaru\Documents\Asp.net2\Backend\SignUpProvider\SignUpProvider\WebApplication1\obj\Debug\net9.0\ref\WebApplication1.dll
+C:\Users\yaaru\Documents\Asp.net2\Backend\SignUpProvider\SignUpProvider\WebApplication1\obj\Debug\net9.0\WebApplication1.sourcelink.json
