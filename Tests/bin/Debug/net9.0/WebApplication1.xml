@@ -1,0 +1,216 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApplication1</name>
+    </assembly>
+    <members>
+        <member name="T:WebApplication1.Controllers.SignUpController">
+            <summary>
+            API-kontroller för användarregistrering.
+            </summary>
+        </member>
+        <member name="M:WebApplication1.Controllers.SignUpController.#ctor(WebApplication1.Services.ISignUpService)">
+            <summary>
+            API-kontroller för användarregistrering.
+            </summary>
+        </member>
+        <member name="M:WebApplication1.Controllers.SignUpController.Register(WebApplication1.Models.SignUpFormData)">
+            <summary>
+            Registrerar en ny användare.
+            </summary>
+            <param name="formData">Formulärdata innehållande e-postadress och lösenord.</param>
+            <returns>
+            Ett <see cref="T:WebApplication1.Models.SignUpResult"/>-objekt som visar resultatet av registreringen.
+            Returnerar HTTP 200 om registreringen lyckas, annars 400 med felmeddelande.
+            </returns>
+            <response code="200">Användaren registrerades framgångsrikt.</response>
+            <response code="400">Fel i formuläret eller registreringen misslyckades.</response>
+        </member>
+        <member name="T:Presentation.AccountReflection">
+            <summary>Holder for reflection information generated from Protos/account.proto</summary>
+        </member>
+        <member name="P:Presentation.AccountReflection.Descriptor">
+            <summary>File descriptor for Protos/account.proto</summary>
+        </member>
+        <member name="F:Presentation.CreateAccountRequest.EmailFieldNumber">
+            <summary>Field number for the "email" field.</summary>
+        </member>
+        <member name="F:Presentation.CreateAccountRequest.PasswordFieldNumber">
+            <summary>Field number for the "password" field.</summary>
+        </member>
+        <member name="F:Presentation.CreateAccountReply.UserIdFieldNumber">
+            <summary>Field number for the "user_id" field.</summary>
+        </member>
+        <member name="F:Presentation.CreateAccountReply.SucceededFieldNumber">
+            <summary>Field number for the "succeeded" field.</summary>
+        </member>
+        <member name="F:Presentation.CreateAccountReply.MessageFieldNumber">
+            <summary>Field number for the "message" field.</summary>
+        </member>
+        <member name="F:Presentation.ValidateCredentialsRequest.EmailFieldNumber">
+            <summary>Field number for the "email" field.</summary>
+        </member>
+        <member name="F:Presentation.ValidateCredentialsRequest.PasswordFieldNumber">
+            <summary>Field number for the "password" field.</summary>
+        </member>
+        <member name="F:Presentation.ValidateCredentialsReply.UserIdFieldNumber">
+            <summary>Field number for the "user_id" field.</summary>
+        </member>
+        <member name="F:Presentation.ValidateCredentialsReply.SucceededFieldNumber">
+            <summary>Field number for the "succeeded" field.</summary>
+        </member>
+        <member name="F:Presentation.ValidateCredentialsReply.MessageFieldNumber">
+            <summary>Field number for the "message" field.</summary>
+        </member>
+        <member name="F:Presentation.GetAccountsReply.AccountsFieldNumber">
+            <summary>Field number for the "accounts" field.</summary>
+        </member>
+        <member name="F:Presentation.GetAccountsReply.SucceededFieldNumber">
+            <summary>Field number for the "succeeded" field.</summary>
+        </member>
+        <member name="F:Presentation.GetAccountsReply.MessageFieldNumber">
+            <summary>Field number for the "message" field.</summary>
+        </member>
+        <member name="F:Presentation.Account.UserIdFieldNumber">
+            <summary>Field number for the "user_id" field.</summary>
+        </member>
+        <member name="F:Presentation.Account.UserNameFieldNumber">
+            <summary>Field number for the "user_name" field.</summary>
+        </member>
+        <member name="F:Presentation.Account.EmailFieldNumber">
+            <summary>Field number for the "email" field.</summary>
+        </member>
+        <member name="F:Presentation.Account.PhoneNumberFieldNumber">
+            <summary>Field number for the "phone_number" field.</summary>
+        </member>
+        <member name="F:Presentation.GetAccountByIdRequest.UserIdFieldNumber">
+            <summary>Field number for the "user_id" field.</summary>
+        </member>
+        <member name="F:Presentation.GetAccountByIdReply.AccountFieldNumber">
+            <summary>Field number for the "account" field.</summary>
+        </member>
+        <member name="F:Presentation.GetAccountByIdReply.SucceededFieldNumber">
+            <summary>Field number for the "succeeded" field.</summary>
+        </member>
+        <member name="F:Presentation.GetAccountByIdReply.MessageFieldNumber">
+            <summary>Field number for the "message" field.</summary>
+        </member>
+        <member name="F:Presentation.UpdatePhoneNumberRequest.UserIdFieldNumber">
+            <summary>Field number for the "user_id" field.</summary>
+        </member>
+        <member name="F:Presentation.UpdatePhoneNumberRequest.PhoneNumberFieldNumber">
+            <summary>Field number for the "phone_number" field.</summary>
+        </member>
+        <member name="F:Presentation.UpdatePhoneNumberReply.SucceededFieldNumber">
+            <summary>Field number for the "succeeded" field.</summary>
+        </member>
+        <member name="F:Presentation.UpdatePhoneNumberReply.MessageFieldNumber">
+            <summary>Field number for the "message" field.</summary>
+        </member>
+        <member name="F:Presentation.DeleteAccountRequest.UserIdFieldNumber">
+            <summary>Field number for the "user_id" field.</summary>
+        </member>
+        <member name="F:Presentation.DeleteAccountReply.SucceededFieldNumber">
+            <summary>Field number for the "succeeded" field.</summary>
+        </member>
+        <member name="F:Presentation.DeleteAccountReply.MessageFieldNumber">
+            <summary>Field number for the "message" field.</summary>
+        </member>
+        <member name="F:Presentation.ConfirmAccountRequest.UserIdFieldNumber">
+            <summary>Field number for the "user_id" field.</summary>
+        </member>
+        <member name="F:Presentation.ConfirmAccountRequest.TokenFieldNumber">
+            <summary>Field number for the "token" field.</summary>
+        </member>
+        <member name="F:Presentation.ConfirmAccountReply.SucceededFieldNumber">
+            <summary>Field number for the "succeeded" field.</summary>
+        </member>
+        <member name="F:Presentation.ConfirmAccountReply.MessageFieldNumber">
+            <summary>Field number for the "message" field.</summary>
+        </member>
+        <member name="F:Presentation.UpdateEmailRequest.UserIdFieldNumber">
+            <summary>Field number for the "user_id" field.</summary>
+        </member>
+        <member name="F:Presentation.UpdateEmailRequest.EmailFieldNumber">
+            <summary>Field number for the "email" field.</summary>
+        </member>
+        <member name="F:Presentation.UpdateEmailRequest.NewEmailFieldNumber">
+            <summary>Field number for the "new_email" field.</summary>
+        </member>
+        <member name="F:Presentation.UpdateEmailReply.SucceededFieldNumber">
+            <summary>Field number for the "succeeded" field.</summary>
+        </member>
+        <member name="F:Presentation.UpdateEmailReply.MessageFieldNumber">
+            <summary>Field number for the "message" field.</summary>
+        </member>
+        <member name="F:Presentation.UpdateEmailReply.TokenFieldNumber">
+            <summary>Field number for the "token" field.</summary>
+        </member>
+        <member name="F:Presentation.ConfirmEmailChangeRequest.UserIdFieldNumber">
+            <summary>Field number for the "user_id" field.</summary>
+        </member>
+        <member name="F:Presentation.ConfirmEmailChangeRequest.NewEmailFieldNumber">
+            <summary>Field number for the "new_email" field.</summary>
+        </member>
+        <member name="F:Presentation.ConfirmEmailChangeRequest.TokenFieldNumber">
+            <summary>Field number for the "token" field.</summary>
+        </member>
+        <member name="F:Presentation.ConfirmEmailChangeReply.SucceededFieldNumber">
+            <summary>Field number for the "succeeded" field.</summary>
+        </member>
+        <member name="F:Presentation.ConfirmEmailChangeReply.MessageFieldNumber">
+            <summary>Field number for the "message" field.</summary>
+        </member>
+        <member name="F:Presentation.ResetPasswordRequest.UserIdFieldNumber">
+            <summary>Field number for the "user_id" field.</summary>
+        </member>
+        <member name="F:Presentation.ResetPasswordRequest.TokenFieldNumber">
+            <summary>Field number for the "token" field.</summary>
+        </member>
+        <member name="F:Presentation.ResetPasswordRequest.NewPasswordFieldNumber">
+            <summary>Field number for the "new_password" field.</summary>
+        </member>
+        <member name="F:Presentation.ResetPasswordReply.SucceededFieldNumber">
+            <summary>Field number for the "succeeded" field.</summary>
+        </member>
+        <member name="F:Presentation.ResetPasswordReply.MessageFieldNumber">
+            <summary>Field number for the "message" field.</summary>
+        </member>
+        <member name="F:Presentation.GenerateTokenRequest.UserIdFieldNumber">
+            <summary>Field number for the "user_id" field.</summary>
+        </member>
+        <member name="F:Presentation.GenerateTokenReply.TokenFieldNumber">
+            <summary>Field number for the "token" field.</summary>
+        </member>
+        <member name="F:Presentation.GenerateTokenReply.SucceededFieldNumber">
+            <summary>Field number for the "succeeded" field.</summary>
+        </member>
+        <member name="F:Presentation.GenerateTokenReply.MessageFieldNumber">
+            <summary>Field number for the "message" field.</summary>
+        </member>
+        <member name="P:Presentation.AccountGrpcService.Descriptor">
+            <summary>Service descriptor</summary>
+        </member>
+        <member name="T:Presentation.AccountGrpcService.AccountGrpcServiceClient">
+            <summary>Client for AccountGrpcService</summary>
+        </member>
+        <member name="M:Presentation.AccountGrpcService.AccountGrpcServiceClient.#ctor(Grpc.Core.ChannelBase)">
+            <summary>Creates a new client for AccountGrpcService</summary>
+            <param name="channel">The channel to use to make remote calls.</param>
+        </member>
+        <member name="M:Presentation.AccountGrpcService.AccountGrpcServiceClient.#ctor(Grpc.Core.CallInvoker)">
+            <summary>Creates a new client for AccountGrpcService that uses a custom <c>CallInvoker</c>.</summary>
+            <param name="callInvoker">The callInvoker to use to make remote calls.</param>
+        </member>
+        <member name="M:Presentation.AccountGrpcService.AccountGrpcServiceClient.#ctor">
+            <summary>Protected parameterless constructor to allow creation of test doubles.</summary>
+        </member>
+        <member name="M:Presentation.AccountGrpcService.AccountGrpcServiceClient.#ctor(Grpc.Core.ClientBase.ClientBaseConfiguration)">
+            <summary>Protected constructor to allow creation of configured clients.</summary>
+            <param name="configuration">The client configuration.</param>
+        </member>
+        <member name="M:Presentation.AccountGrpcService.AccountGrpcServiceClient.NewInstance(Grpc.Core.ClientBase.ClientBaseConfiguration)">
+            <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
+        </member>
+    </members>
+</doc>

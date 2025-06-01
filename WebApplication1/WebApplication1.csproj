@@ -15,15 +15,21 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="9.0.5" />
 	  <PackageReference Include="Swashbuckle.AspNetCore" Version="8.1.1" />
   </ItemGroup>
 	<ItemGroup>
-		<Folder Include="Protos\"/>
-		<Folder Include="Services\"/>
+		<Folder Include="Protos\" />
+		<Folder Include="Services\" />
 	</ItemGroup>
 	
 	<ItemGroup>
 		<Protobuf Include="Protos\account.proto" GrpcServices="Client" />
 	</ItemGroup>
+	<PropertyGroup>
+  <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  <NoWarn>$(NoWarn);1591</NoWarn>
+</PropertyGroup>
+
 
 </Project>

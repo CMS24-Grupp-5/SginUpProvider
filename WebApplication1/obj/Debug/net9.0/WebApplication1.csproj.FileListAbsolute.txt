@@ -41,3 +41,16 @@ C:\Users\yaaru\Documents\Asp.net2\Backend\SignUpProvider\SignUpProvider\WebAppli
 C:\Users\yaaru\Documents\Asp.net2\Backend\SignUpProvider\SignUpProvider\WebApplication1\obj\Debug\net9.0\WebApplication1.genruntimeconfig.cache
 C:\Users\yaaru\Documents\Asp.net2\Backend\SignUpProvider\SignUpProvider\WebApplication1\obj\Debug\net9.0\ref\WebApplication1.dll
 C:\Users\yaaru\Documents\Asp.net2\Backend\SignUpProvider\SignUpProvider\WebApplication1\obj\Debug\net9.0\WebApplication1.sourcelink.json
+C:\Users\yaaru\Documents\Asp.net2\Backend\SignUpProvider\SignUpProvider\WebApplication1\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\yaaru\Documents\Asp.net2\Backend\SignUpProvider\SignUpProvider\WebApplication1\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\yaaru\Documents\Asp.net2\Backend\SignUpProvider\SignUpProvider\WebApplication1\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\yaaru\Documents\Asp.net2\Backend\SignUpProvider\SignUpProvider\WebApplication1\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\yaaru\Documents\Asp.net2\Backend\SignUpProvider\SignUpProvider\WebApplication1\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\yaaru\Documents\Asp.net2\Backend\SignUpProvider\SignUpProvider\WebApplication1\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\yaaru\Documents\Asp.net2\Backend\SignUpProvider\SignUpProvider\WebApplication1\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\yaaru\Documents\Asp.net2\Backend\SignUpProvider\SignUpProvider\WebApplication1\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+C:\Users\yaaru\Documents\Asp.net2\Backend\SignUpProvider\SignUpProvider\WebApplication1\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\yaaru\Documents\Asp.net2\Backend\SignUpProvider\SignUpProvider\WebApplication1\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+C:\Users\yaaru\Documents\Asp.net2\Backend\SignUpProvider\SignUpProvider\WebApplication1\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Users\yaaru\Documents\Asp.net2\Backend\SignUpProvider\SignUpProvider\WebApplication1\bin\Debug\net9.0\WebApplication1.xml
+C:\Users\yaaru\Documents\Asp.net2\Backend\SignUpProvider\SignUpProvider\WebApplication1\obj\Debug\net9.0\WebApplication1.xml
